@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
 
@@ -49,4 +49,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-`;
+`

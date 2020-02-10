@@ -3,12 +3,12 @@
 //   lineHeight: 1.5,
 // }
 
-export const fontTypes = {};
+export const fontTypes = {}
 
 export const themeColors = {
-  black: "#000",
-  white: "#FFFFFF"
-};
+  black: '#000',
+  white: '#FFFFFF',
+}
 
 export const gridConfig = {
   breakpoints: {
@@ -16,9 +16,9 @@ export const gridConfig = {
     lg: 1280,
     md: 980,
     sm: 736,
-    xs: 480
-  }
-};
+    xs: 480,
+  },
+}
 
 export const mediaQueries = {
   xs: `(max-width: ${gridConfig.breakpoints.xs}px)`,
@@ -29,15 +29,15 @@ export const mediaQueries = {
   smUp: `(min-width: ${gridConfig.breakpoints.sm}px)`,
   mdUp: `(min-width: ${gridConfig.breakpoints.md}px)`,
   lgUp: `(min-width: ${gridConfig.breakpoints.lg}px)`,
-  xlUp: `(min-width: ${gridConfig.breakpoints.xl}px)`
-};
+  xlUp: `(min-width: ${gridConfig.breakpoints.xl}px)`,
+}
 
-export const shadows = {};
+export const shadows = {}
 
 export default {
   // fontFamily: "Open Sans",
   // fontTypes,
   colors: themeColors,
   mediaQueries,
-  shadows
-};
+  shadows,
+}
