@@ -1,10 +1,10 @@
-import React from "react";
-import { BrowserRouter } from "react-router-dom";
-import { ThemeProvider } from "styled-components";
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import { ThemeProvider } from 'styled-components'
 
-import GlobalStyle from "./styles/global";
-import theme from "./styles/theme";
-import Routes from "./routes";
+import GlobalStyle from './styles/global'
+import theme from './styles/theme'
+import Routes from './routes'
 
 const App = () => (
   <BrowserRouter>
@@ -13,6 +13,6 @@ const App = () => (
       <Routes />
     </ThemeProvider>
   </BrowserRouter>
-);
+)
 
-export default App;
+export default App
